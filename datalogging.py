@@ -1,7 +1,7 @@
 from microbit import *
 # write to a csv file(create a new one if not existed).
 # every 10 seconds write compass heading and temperature to the file.
-# press a to display the latest record
+# press a read immediately
 def wd():
     with open('data.csv', 'w') as f:
         temp = temperature()
