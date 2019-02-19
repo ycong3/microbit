@@ -16,3 +16,4 @@ while True:
     wd()
     sleep(7000)
 # :/ i haven't figured out how to stop sleeping by pressing a button.
+# or just press reset to immediately read a data.
